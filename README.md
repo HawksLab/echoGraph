@@ -11,6 +11,8 @@ EchoGraph analyzes social media data (Reddit/Twitter) to:
 - Visualize community structures
 - Provide early warning for coordinated misinformation campaigns
 
+## Demo:
+https://drive.google.com/file/d/12CCHeLH6UgBxAytda2WyfnTBSl2OUAdK/view?usp=sharing
 ## 🏗️ Architecture
 
 ```
