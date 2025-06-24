@@ -65,7 +65,7 @@ The project works with:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone <https://github.com/HawksLab/echoGraph>
 cd echoGraph
 
 # Create virtual environment
@@ -167,14 +167,3 @@ This project can be used for:
 - Media literacy education
 - Platform policy research
 
-## 📝 License
-
-MIT License - see LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions welcome! Please read CONTRIBUTING.md for guidelines.
-
-## 📧 Contact
-
-For questions or collaboration opportunities, please open an issue.
