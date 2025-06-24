@@ -10,7 +10,7 @@ import os
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from knowledge_graph.graph import KnowledgeGraph, Node, Edge
+from src.knowledge_graph.graph import KnowledgeGraph, Node, Edge
 
 
 class TestKnowledgeGraph(unittest.TestCase):
@@ -219,8 +219,8 @@ class TestGraphBuilder(unittest.TestCase):
     
     def setUp(self):
         """Set up test fixtures"""
-        from knowledge_graph.graph_builder import GraphBuilder
-        from data_collection.reddit_scraper import RedditScraper
+        from src.knowledge_graph.graph_builder import GraphBuilder
+        from src.data_collection.reddit_scraper import RedditScraper
         
         self.builder = GraphBuilder()
         self.scraper = RedditScraper()
@@ -248,9 +248,9 @@ class TestEchoChamberDetector(unittest.TestCase):
     
     def setUp(self):
         """Set up test fixtures"""
-        from knowledge_graph.graph_builder import GraphBuilder
-        from data_collection.reddit_scraper import RedditScraper
-        from analysis.echo_chamber_detector import EchoChamberDetector
+        from src.knowledge_graph.graph_builder import GraphBuilder
+        from src.data_collection.reddit_scraper import RedditScraper
+        from src.analysis.echo_chamber_detector import EchoChamberDetector
         
         # Create test graph
         scraper = RedditScraper()
